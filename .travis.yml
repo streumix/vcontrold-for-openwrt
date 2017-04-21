@@ -35,10 +35,12 @@ before_deploy:
 deploy:
   provider: releases
   api_key:
-    secure: jJBKTduvxWOc+0ANQJ3o+j+Pb71S2k2BbqqhyYvWZM40H8jW4euy4/NaLWYf5oNnF5YslmUtvK53m98sBpvu63sHNQ3vK/aoZEGMozFne76Z+PkgL3SZCr8ia/Un+IwEQ0C50FPGBa/osy583r2ajca0rKLlTN0M8zCTACCKm3w=
+    secure: SDfdkz+78hMCAMP9sYhxPUSyDFHifdESWzZvXQC6fAgjaNWYmjvd0bXRSZ6UReUTAsbKNrtsUcdiJ8Vl0+jzaQpU4aTNsxiyjCeBYgqWSnK5rZmXLIawGFs45DRNGuXcu3bpVvhsbYsur0ZIQpAX6Av6Db4QuNbZ0xWueLoHb+YU0cSL50okizo5yhRq7km1ZLIgd3J0W8z7jixj3hx58MHlBaRGhN1TCWKdqKMi1MSm2sWZTNz9eaKwNE/oJ8TQRQ3vynZ2HdHsKpZYk4WlWrdqzF5oBuYwnxQAV64bOFAJeNkoUukf0apZGrSSR/L+ouBTEVUxSluTZJ94RE9j+ICoDk08eaIhBib2Ryw1AO+DinAWuT2hHlIlOd7yQZVcv/1Jo77zZg++WbIJzCw8XY984UzVV6XLsbcx6rODrq3cclT2QaFaSxXKp7z4a2ZoBatoM3bMqb2aQ3c3j4A39NusBpnlbmO9plf6TgivBzs/r83g9oYzXVl8DSR4UXCGIRSlY41qmqtwCzf+rWkd560nbbKlMuwShiqlar//ios4SHG83zqkr/AwW3ljUEjXlwG81XK+DTHLlIEFYoMoUQD1YqkZm32MTm6ahjPtoi8qyRZBa3jPNo4bZjRY02Wcq/DSHzdOs2bwElVEF9KKTgT+S66G/Xdzi/81g6RlSpk=
   skip_cleanup: true
   file_glob: true
   file: $TRAVIS_BUILD_DIR/*.ipk
   on:
     tags: true
     all_branches: true
+    repo: streumix/vcontrold-for-openwrt
+    
