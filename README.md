@@ -1,4 +1,4 @@
-vcontrold-for-openwrt [![Build Status](https://travis-ci.org/probonopd/vcontrold-for-openwrt.svg)](https://travis-ci.org/probonopd/vcontrold-for-openwrt)
+vcontrold-for-openwrt [![Build Status](https://travis-ci.org/streumix/vcontrold-for-openwrt.svg)](https://travis-ci.org/streumix/vcontrold-for-openwrt)
 =====================
 ![Vitotronic 200 KW2](https://cloud.githubusercontent.com/assets/2480569/5601297/4ab09c20-92f7-11e4-9fd3-328e15ff4303.jpg) ![D-Link DIR 505](https://cloud.githubusercontent.com/assets/2480569/5601325/4f1c2a26-92f8-11e4-846a-ef47d5c96ae3.jpeg)
 
@@ -11,11 +11,11 @@ See http://openv.wikispaces.com/vcontrold for more information.
 
 Downloading
 --
-Precompiled binaries for common architectures can be found on https://github.com/probonopd/vcontrold-for-openwrt/releases - check the ```.travis.yml``` file to see how this is compiled on http://travis-ci.org automatically. Please file an issue if you need addional architectures and/or OpenWrt versions.
+Precompiled binaries for common architectures can be found on https://github.com/streumix/vcontrold-for-openwrt/releases - check the ```.travis.yml``` file to see how this is compiled on http://travis-ci.org automatically. Please file an issue if you need addional architectures and/or OpenWrt versions.
 
 Building
 --
-To build, pull this repository into the ```package/``` subdirectory in the OpenWrt SDK with ```git clone https://github.com/probonopd/vcontrold-for-openwrt.git```, then run ```./scripts/feeds update ; ./scripts/feeds install -d m libxml2``` and finally ```make V=s```. 
+To build, pull this repository into the ```package/``` subdirectory in the OpenWrt SDK with ```git clone https://github.com/streumix/vcontrold-for-openwrt.git```, then run ```./scripts/feeds update ; ./scripts/feeds install -d m libxml2``` and finally ```make V=s```. 
 
 Using
 --
